@@ -18,7 +18,8 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            We'd love to hear from you and discuss how we can help your business
+            We&apos;d love to hear from you and discuss how we can help your
+            business
           </p>
         </motion.div>
 

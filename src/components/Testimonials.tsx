@@ -34,7 +34,7 @@ export default function Testimonials() {
               className="bg-gray-800/50 p-6 rounded-xl border border-gray-700"
             >
               <blockquote className="text-gray-300 italic mb-4">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </blockquote>
               <div className="text-sm">
                 <p className="font-semibold text-teal-400">
