@@ -1,0 +1,21 @@
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-bg {
+  background: linear-gradient(-45deg, #1a202c, #4fd1c5, #2563eb, #121212);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+.typewriter {
+  border-right: 2px solid rgba(79, 209, 197, 0.75);
+  animation: blinkTextCursor 800ms steps(44) infinite normal;
+}
+
+@keyframes blinkTextCursor {
+  from { border-right-color: rgba(79, 209, 197, 0.75); }
+  to { border-right-color: transparent; }
+}
