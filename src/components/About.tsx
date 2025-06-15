@@ -77,7 +77,7 @@ export default function About() {
                   Republic of Nigeria.
                 </p>
                 <p className="text-sm text-gray-400 mt-2">
-                  Registration Number: [Your CAC Registration Number]
+                  Registration Number: [8137494]
                 </p>
               </div>
             </div>
